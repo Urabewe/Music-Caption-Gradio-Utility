@@ -21,9 +21,6 @@ Generate detailed descriptions of your music files using AI. This tool uses Qwen
 ## Installation
 
 The installer automatically detects your system configuration and installs the correct version of PyTorch:
-- **CUDA 12.1+** → PyTorch with CUDA 12.1 support
-- **CUDA 11.8-12.0** → PyTorch with CUDA 11.8 support  
-- **No GPU or older CUDA** → CPU-only PyTorch
 
 ### Windows
 
@@ -39,11 +36,7 @@ The installer automatically detects your system configuration and installs the c
      - Install all other dependencies
    - Wait for installation to complete (may take 10-30 minutes)
 
-3. **Download the model** (Optional - it auto-downloads on first run):
-   - Double-click `download_model.bat` to pre-download the model
-   - Or just skip this - the model downloads automatically when you first run the app
-
-4. **Run the application**:
+3. **Run the application**:
    - Double-click `run.bat`
    - Your browser will open at `http://localhost:7865`
    - First run: Model downloads automatically (~14GB, takes 10-30 minutes)
@@ -67,14 +60,7 @@ The installer automatically detects your system configuration and installs the c
    ```
    The installer will automatically detect your CUDA version and install the appropriate PyTorch build.
 
-3. **Download the model** (Optional - it auto-downloads on first run):
-   ```bash
-   chmod +x download_model.sh
-   ./download_model.sh
-   ```
-   Or just skip this - the model downloads automatically when you first run the app
-
-4. **Run the application**:
+3. **Run the application**:
    ```bash
    ./run.sh
    ```
@@ -254,23 +240,6 @@ To update to the latest version:
    - Windows: `C:\Users\YourName\.cache\huggingface`
    - Linux/Mac: `~/.cache/huggingface`
    - Delete this folder to remove the downloaded model
-
-## Credits
-
-- **Model**: [Qwen2-Audio by Alibaba Cloud](https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct)
-- **Interface**: [Gradio](https://www.gradio.app/)
-- **Framework**: [Hugging Face Transformers](https://huggingface.co/docs/transformers)
-
-## License
-
-This application is provided as-is for personal use. The Qwen2-Audio model has its own license terms - please review them at the [model page](https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct).
-
-## Support
-
-For issues, questions, or suggestions:
-- Check the troubleshooting section above
-- Review the Qwen2-Audio documentation
-- Check Gradio documentation for interface issues
 
 ---
 
