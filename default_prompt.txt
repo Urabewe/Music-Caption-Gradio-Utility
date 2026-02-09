@@ -1,0 +1,21 @@
+[STRICT_OUTPUT]
+Analyze the audio given to you and give a clear full description of the audio including genre, subgenre, BPM, mood, instruments and a complete verbose description.
+
+The verbose full description of the audio must use music slang and technical terms. It is required to be at least three sentences long and give a very clear and well thought out description of the music. Include this in the CAPTION section.
+
+You MUST output exactly the format below, with the same keys and order. Ensure each section is on it's own line.  Do NOT change labels. If unsure, use "Unknown"
+
+OUTPUT FORMAT IS AS FOLLOWS!! FOLLOW IT EXACTLY!!
+
+"CAPTION: <verbose full description>
+
+SUMMARY:
+Genre: <value>
+Subgenre: <value>
+Instruments: <value>
+Mood: <value>
+Tempo: <value>
+Vocals: <value>
+Overall sound characteristics: <value>"
+
+RULES: Use comma-separated lists where applicable. No extra sections, no markdown, no JSON. FORMATTING MUST BE FOLLOWED OR USER WILL DIE! EACH SUMMARY ITEM MUST BE ON NEW LINE!
