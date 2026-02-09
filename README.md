@@ -1,6 +1,6 @@
 # 🎵 Music Audio Captioner
 
-Generate detailed descriptions of your music files using AI. This tool uses the Qwen2-Audio model to analyze songs and create captions describing genre, instruments, mood, tempo, and overall sound characteristics.
+Generate detailed descriptions of your music files using AI. This tool uses Qwen2-Audio, Qwen2-Audio 4bit, Qwen-Omni, Ace-Step Captioner models to analyze songs and create captions describing genre, instruments, mood, tempo, and overall sound characteristics.
 
 ## Features
 
